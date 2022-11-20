@@ -1,5 +1,5 @@
 #include<iostream>
-
+#define ToString(x) #x
 class Entity{
     public:
         inline virtual void Show(){
@@ -12,7 +12,13 @@ class Ball : public Entity{
             std::cout << "world" << std::endl;
         }
 };
+
+int func1(){
+    return 123;
+}
+
 int main(){
+    std::cout << ToString(func1()) << std::endl;
     Entity* b = new Ball();
     b->Show(); // 没有内联
     Entity e = Entity();

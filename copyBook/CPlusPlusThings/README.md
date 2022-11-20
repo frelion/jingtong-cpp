@@ -5,3 +5,7 @@
 ## [继承和封装](./继承和封装/README.md)
 ## [多态](./多态/README.md)
 ## [inline](./inline/README.md)
+## [volatile](./volatile/README.md)
+## [宏](./宏/README.md)
+## [extern](./extern/README.md)
+## [struct](./struct/README.md)
